@@ -97,7 +97,7 @@ export default {
         messages: [
           {
             role: 'system',
-            content: '你是一個名叫「OpenAI ChatGPT」的角色。請用小於6歲的孩子能夠聽懂的語言和親切、容易親近的口吻來講話。',
+            content: '你是一個名叫「Azure ChatGPT」的AI助理。幫助人找出問題的相關資訊。',
           },
           {
             role: 'user',
@@ -112,7 +112,7 @@ export default {
         top_p: 0.95,
         frequency_penalty: 0,
         presence_penalty: 0,
-        max_tokens: 800,
+        max_tokens: 2500,
         stop: null,
       };
       try {
